@@ -229,11 +229,23 @@
   .col-end-2 {
     grid-column-end: 2;
   }
+  .row-span-1 {
+    grid-row: span 1 / span 1;
+  }
+  .row-span-2 {
+    grid-row: span 2 / span 2;
+  }
   .m-5 {
     margin: calc(var(--spacing) * 5);
   }
   .m-10 {
     margin: calc(var(--spacing) * 10);
+  }
+  .m-20 {
+    margin: calc(var(--spacing) * 20);
+  }
+  .mx-10 {
+    margin-inline: calc(var(--spacing) * 10);
   }
   .-mt-20 {
     margin-top: calc(var(--spacing) * -20);
@@ -388,6 +400,9 @@
   .grid-cols-5 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
+  .grid-rows-4 {
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+  }
   .flex-col {
     flex-direction: column;
   }
@@ -430,6 +445,9 @@
   }
   .bg-\[url\] {
     background-color: url;
+  }
+  .bg-amber-400 {
+    background-color: var(--color-amber-400);
   }
   .bg-black {
     background-color: var(--color-black);
