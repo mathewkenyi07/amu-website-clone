@@ -290,39 +290,41 @@
 
 
 
-    <footer>
-        <div class="grid grid-cols-11 h-64">
-            <div class="col-span-1"></div>
-            <div class="col-span-1 bg-green-600 flex justify-center items-center h-64">
-                <img class="w-8 h-8 m-0" src="./images/home.png" alt="">
-            </div>
-            <div class="col-span-2 bg-amber-300 ">
-                <div flex flex-col gap-20>
-                    <h2>Startseite
-                        Ludwig-Maximilians-Universität München
-                    </h2>
-                    <p>Route anzeigen</p>
-                </div>
-            </div>
-            <div class="col-span-2 bg-gray-500 -mb-20 relative z-10">
-                <div flex flex-col gap-20>
-                    <h2>Startseite
-                        Ludwig-Maximilians-Universität München
-                    </h2>
-                    <p>Route anzeigen</p>
-                </div>
-            </div>
-            <div class="col-span-1 bg-blue-600">
-                <img class="w-8 h-8" src="./images/facebook-app-symbol.png" alt="">
-            </div>
-            <div class="col-span-1  bg-blue-600">
-                <img class="w-8 h-8" src="./images/instagram.png" alt="">
-            </div>
-            <div class="col-span-1  bg-blue-600">
-                <img class="w-8 h-8" src="./images/business.png" alt="">
-            </div>
 
+
+
+
+    <footer>
+     
+<div class="grid grid-cols-11 h-64 relative">
+    <div class="col-span-1"></div>
+    <div class="col-span-1 bg-green-600 flex justify-center items-center col-start-2">
+        <img class="w-8 h-8 m-0" src="./images/home.png" alt="">
+    </div>
+
+    
+    <div class="col-span-2 bg-amber-300 absolute top-0 h-80 z-20" style="left: calc(2/11 * 100%); width: calc(2/11 * 100%)">
+        <div class="flex flex-col gap-5 p-4">
+            <img src="./images/imagefooter.png" alt="">
         </div>
+    </div>
+
+    <div class="col-span-2 bg-gray-500 absolute top-0 h-80 z-10" style="left: calc(4/11 * 100%); width: calc(2/11 * 100%)">
+        <div class="flex flex-col gap-5 p-4">
+            <img src="./images/map.png" alt="">
+        </div>
+    </div>
+
+    <div class="col-start-7 col-span-1 bg-blue-600 flex justify-center items-center">
+        <img class="w-8 h-8" src="./images/facebook-app-symbol.png" alt="">
+    </div>
+    <div class="col-start-8 col-span-1 bg-blue-600 flex justify-center items-center">
+        <img class="w-8 h-8" src="./images/instagram.png" alt="">
+    </div>
+    <div class="col-start-9 col-span-1 bg-blue-600 flex justify-center items-center">
+        <img class="w-8 h-8" src="./images/business.png" alt="">
+    </div>
+</div>
 
         <div class="grid grid-cols-11 bg-gray-800 ">
             <div class="col-span-2 h-45"></div>
@@ -333,23 +335,34 @@
         </div>
 
         <div>
-            <div class="flex flex-col ">
-                <h2 class="text-white font-bold p-5 bg-gray-800">Ludwig Maximilian University of Munich</h2>
-                <div class="bg-gray-800 p-5  text-white">
-                    <p>Geschwister-Scholl-Platz 1 &emsp; &emsp; 80539 Munich &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                    Phone: +49 89 2180-0</p>
-                    <p>80539 Munich &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;Phone: +49 89 2180-0 &emsp; &emsp; &emsp;
-                    Fax: +49 89 2180-2322</p>
-                </div>
-                <div class="bg-gray-800 p-5  text-white">
-                    
+            <div class="bg-gray-800 p-8">
+                <h2 class="text-white font-bold mb-4">Ludwig Maximilian University of Munich</h2>
+
+                <hr class="border-gray-600 mb-4">
+
+                <div class="flex items-start justify-between">
+
+
+                    <div class="bg-gray-800 p-5 col-span-1 text-white -mb-10">
+                        <p>Geschwister-Scholl-Platz 1 &emsp; &emsp; 80539 Munich &emsp;
+                            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                            Phone: +49 89 2180-0</p>
+                        <p>80539 Munich &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;Phone: +49 89 2180-0 &emsp; &emsp;
+                            &emsp;
+                            Fax: +49 89 2180-2322</p>
+                    </div>
+
+                    <div class="ml-16 shrink-0">
+                        <img src="./images/Screenshot_2026-06-05_224937-removebg-preview.png" alt="LMU Seal"
+                            class="w-40 h-40 object-contain">
+                    </div>
+
                 </div>
             </div>
+
             <div class="flex gap-2 bg-gray-800 p-5">
-                <div class=""><img class="w-4 h-8" src="./images/arrowgreen.png" alt=""></div>
+                <div><img class="w-4 h-8" src="./images/arrowgreen.png" alt=""></div>
                 <div class="text-green-600">Go to LMU room finder</div>
-
-
             </div>
         </div>
 
@@ -370,8 +383,6 @@
         </div>
 
     </footer>
-
-
 
 </body>
 
